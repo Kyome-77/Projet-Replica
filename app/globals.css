@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg text-text font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-md bg-accent text-on-accent text-sm font-semibold duration-200 h-10 px-4 py-2 hover:bg-accent/90 disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-md border border-border bg-bg text-text text-sm font-semibold duration-200 h-10 px-4 py-2 hover:bg-surface disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center rounded-md text-text text-sm font-semibold duration-200 h-10 px-4 py-2 hover:bg-surface disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 disabled:cursor-not-allowed;
+  }
+  .btn-danger {
+    @apply inline-flex items-center justify-center rounded-md bg-danger text-white text-sm font-semibold duration-200 h-10 px-4 py-2 hover:bg-danger/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-danger focus-visible:ring-offset-2 disabled:cursor-not-allowed;
+  }
+  .input {
+    @apply flex h-10 w-full rounded-md border border-border-input bg-bg px-3 py-2 text-base text-text placeholder:text-text-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent disabled:bg-surface disabled:cursor-not-allowed;
+  }
+  .input-error {
+    @apply border-danger focus-visible:border-danger;
+  }
+  .card {
+    @apply rounded-lg bg-bg shadow-card border border-border;
+  }
+  .surface {
+    @apply rounded-lg bg-surface;
+  }
+}

@@ -1,0 +1,15 @@
+feature,area,priority,original,clone,notes
+Sign up with email or Google,onboarding,must,yes,no,Auth gate before any lesson
+Upload notes, textbook, PDF or homework photo,upload,must,yes,no,File picker + camera on mobile
+AI builds a step-by-step lesson from the material,lesson,must,yes,no,Core value: teaches on a whiteboard instead of just answering
+Interactive whiteboard with step-by-step explanation,lesson,must,yes,no,Infinite canvas, diagrams, graphs
+Ask a follow-up question during the lesson,lesson,must,yes,no,Chat overlay; tutor adjusts explanation
+Request another example or "explain that again",lesson,must,yes,no,Tutor adapts to the student
+AI generates practice questions from the material,practice,must,yes,no,Questions built from the user's own notes
+Reveal answer + explanation after attempting,practice,must,yes,no,Immediate feedback loop
+Grade-level and subject selection,onboarding,should,yes,no,Focuses help on what the student needs
+Mobile app: snap a photo of a problem,mobile,should,yes,no,Camera flow; result on whiteboard
+Embeddable tutor widget for LMS/schools,integrations,could,yes,no,StuddyWidget pattern; B2B only
+White-label options for partners,integrations,could,yes,no,B2B relationship feature
+Analytics dashboard for student insights,analytics,could,yes,no,Partner-facing; skip for MVP
+Marketplace of third-party apps,integrations,could,no,skip,Studdy's partner network — not part of the product you can rebuild
